@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+{
+	margin :0;
+	padding :0 ;
+}
+.header {
+	display :flex;
+	justify-content: space-between;
+	align-items:flex-start;
+	background-image: url("hq720.jpg");
+	height: 380px
+}
+.header img {
+	width : 20%;
+}
+.header ul {
+	display :flex;
+	justify-content: space-between;
+	width :70%;
+	padding : 30px 160px;
+	list-style: none;
+	font-size : 20px;
+	background-color :white;
+	
+}
+.header li {
+	padding-left: 70px;
+}
+a{
+	background-color:#f4a61d;
+	padding : 10px 20px;
+}
+.phanthan1 {
+	text-align: center;
+	padding : 100px;
+	background-color :white; 
+	width :60%;
+	margin : 0 auto;
+}
+.phanthan1 h1{
+	font-size : 40px;
+	color:#f4a61d;
+}.phanthan1 p{
+	font-size : 16px;
+}
+.phanthan2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding : 100px;
+	background-color:#f4a61d;
+	
+}
+.phanthan2 .bentrai {
+	width :35%;
+	padding : 0 50px;
+	margin-left : 200px;
+}
+.phanthan2 .benphai img {
+	padding-left :  30px;
+	margin-right : 500px;
+	width :50%;
+	
+}
+.phanthan2 h3{
+	font-size :25px;
+}
+.phanthan2 p{
+	font-size :16px;
+}
+.phancuoi {
+	text-align: center;
+	padding : 50px;
+}
+.phancuoi h1{
+	padding : 10px;
+	font-size : 40px;
+	color:#f4a61d;
+}
